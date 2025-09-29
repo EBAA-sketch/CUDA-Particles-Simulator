@@ -26,3 +26,23 @@ CUDA-Симулятор-Частиц/
 ├── docs/ # Документация
 ├── scripts/ # Скрипты компиляции
 └── output/ # Результаты моделирования
+
+
+## ⚡ Установка и запуск
+
+### Предварительные требования
+- NVIDIA GPU с поддержкой CUDA
+- CUDA Toolkit 11.0 или выше
+- Visual Studio 2019 или выше
+
+### Шаги запуска
+```bash
+# Клонирование проекта
+git clone https://github.com/your-username/CUDA-Симулятор-Частиц.git
+cd CUDA-Симулятор-Частиц
+
+# Компиляция
+nvcc -o particle_system.exe src/particle_system.cu -arch=sm_61 -O3
+
+# Запуск
+particle_system.exe
