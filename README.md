@@ -25,15 +25,7 @@
 - CUDA Toolkit 11.0 или выше
 - Visual Studio 2019 или выше
 - 
-📁 Структура проекта
-text
-CUDA-Симулятор-Частиц/
-├── src/
-│   └── particle_system.cu
-├── docs/
-│   └── ОТЧЕТ.md
-├── scripts/
-│   └── compile.bat
+
 
 
 
